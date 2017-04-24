@@ -1,0 +1,70 @@
+body{
+	background: linear-gradient(to top,transparent,rgba(0,0,0,.3));
+	background-color: #004C84;
+}
+
+a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #4CAF50;
+}
+
+a:hover{
+	color: blue;
+}
+
+#divLogin{ 
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+
+.formLogin{
+	position: relative;
+	z-index: 1;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 40px 80px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	/*background: linear-gradient(to top,transparent,rgba(0,0,0,.3));*/
+	background-color: #F8F8FF;
+	color: white;
+}
+
+
+.divLabel{
+	margin: 10px;
+}
+
+.inputTextPass{
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	background-color: #DCDCDC;
+}
+
+.inputButton{
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+	width: 100%;
+	color: #000;
+}
+
+#Title{
+	display: block;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #000
+}
+
