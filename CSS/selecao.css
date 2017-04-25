@@ -1,0 +1,25 @@
+body{
+	background: linear-gradient(to top,transparent,rgba(0,0,0,.3));
+	background-color: #004C84;
+}
+
+#container{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+#container button{
+	width: 30%;
+	height: 300px;
+	margin: 40px;
+	margin-top: 150px;
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	background-color: #3366CC;
+	font-size: 25px;
+	color: #fff;
+}
+
+#logout{
+	float: right !important;
+}
