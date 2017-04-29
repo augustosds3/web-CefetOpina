@@ -3,6 +3,10 @@ body{
 	background-color: #004C84;
 }
 
+textarea{
+	resize:none;
+	text-align: left !important; 
+}
 #container{
 	position: absolute;
 	left: 30%;
@@ -25,4 +29,27 @@ body{
 	font-size: 20px;
 	font-weight: bold;
 	color: #004C84
+}
+
+.label{
+	font-size: 18px;
+	padding: 0px;
+	color: #000;
+}
+
+.inputText{
+	color: #000;
+}
+
+.checkbox{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	margin-left: 20%;
+	margin-right: 5px;
+	
+}
+
+.button{
+	width: 40%;
+	display:inline;
 }

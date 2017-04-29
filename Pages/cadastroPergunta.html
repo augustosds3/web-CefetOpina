@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cefet Opina</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../CSS/cadastroPergunta.css">
+	<link rel="stylesheet" href="../CSS/navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="selecao.html">Home</a></li>
+			<li><a href="setores.html">Setores</a></li>
+			<li id="logout"><a href="../index.html">Logout</a></li>
+		</ul>
+	</nav>
+	<div id="container">
+		<form action="cadastroSelect.html">
+			<label class="selectContainer">Biblioteca</label>
+			<label class="selectContainer label">Pergunta*</label>
+			<input type="text" name="tema" class="selectContainer inputText">
+			<input type="radio" name="tipo" value="texto" checked class="checkbox">Discurssiva</br>
+			<input type="radio" name="tipo" value="checkbox" class="checkbox">Múltipla Escolha
+			<div style="margin-left: 17%">
+				<input type="submit" value="Cadastrar" class="selectContainer button">
+				<input type="submit" value="Cancelar" class="selectContainer button">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
