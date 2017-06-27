@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cefet Opina</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../CSS/perguntasList.css">
+	<link rel="stylesheet" href="../CSS/navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="selecao.html">Home</a></li>
+			<li><a href="respostaSelect.html">Selecionar Departamento</a></li>
+			<li id="logout"><a href="../index.html">Logout</a></li>
+		</ul>
+	</nav>
+	<div id="container">
+		<label class="selectContainer">Selecionar Questão</label>
+		<label class="selectContainer labelTema">Todos</label>
+		<table>
+			<% if(data.length){%>
+			<tr>
+				<th>
+					Pergunta
+				</th>
+				<th>
+					Setor
+				</th>
+			</tr>
+			<%for(var i = 0;i < data.length;i++) { %>
+			<tr>
+				<td>
+					<a class="links" href="submitResposta.html" name="pergunta">
+						<%=data[i].pergunta%>
+					</a>
+				</td>
+				<td>
+					<div name="setor">	
+						<%=data[i].setor%>
+					</div>
+				</td>
+			</tr>
+			<% }
+
+		} %>
+	</table>
+</div>
+</body>
+</html>
