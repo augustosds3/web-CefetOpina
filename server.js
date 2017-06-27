@@ -17,7 +17,7 @@ app.set('view engine', 'ejs')
 var con = mysql.createConnection({
 	host: "localhost",
 	user: "root",
-	password: "curujahahaha",
+	password: "",
 	database : 'opina'
 });
 
